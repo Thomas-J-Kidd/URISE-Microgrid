@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>Artemis_Test</att_name>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>192.168.5.33:25255</att_ip_address>
+        <att_hashcode>A3673812-C041-4155-BB85-AE404FF1CCD6</att_hashcode>
+        <att_autosave>ON</att_autosave>
+        <att_project_locked>0</att_project_locked>
+        <att_filename>C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\Artemis_Test.llp</att_filename>
+    </General>
+    <Optionals>
+        <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
+        <att_matlab_compile_outprocess>OFF</att_matlab_compile_outprocess>
+    </Optionals>
+    <Models>
+        <Model>
+            <Path>
+                <Relative>models/ACDCMG_sim8/ACDCMG_sim8.slx</Relative>
+                <Absolute>C:/Users/dkh20/OPAL-RT/RT-LABv2021.3_Workspace/Artemis_Test/models/ACDCMG_sim8/ACDCMG_sim8.slx</Absolute>
+                <UNC>C:/Users/dkh20/OPAL-RT/RT-LABv2021.3_Workspace/Artemis_Test/models/ACDCMG_sim8/ACDCMG_sim8.slx</UNC>
+            </Path>
+        </Model>
+    </Models>
+</Project>

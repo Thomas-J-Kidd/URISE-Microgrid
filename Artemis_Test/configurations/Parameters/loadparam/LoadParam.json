@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableLoadParamList":
+    {
+      "name":"E1E175DE-91FC-42BE-A723-EA42A8851024",
+      "loadParamSets":
+      [
+        "ACDCMG_sim8.slx"
+      ],
+      "parent":"/"
+    }
+  }
+]

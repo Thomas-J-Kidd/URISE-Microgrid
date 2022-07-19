@@ -1,0 +1,94 @@
+[GENERATION.REDHAWK64.SETTINGS]
+CompilerVersion=Automatic
+PlatformDependent=yes
+RTLAB_Version=v2021.3.4.320undefined
+[INTERNAL]
+LAST_PLATFORM=5
+[SEPARATION.SETTINGS]
+CompilerVersion=AUTOMATIC
+MATLAB_VERSION=165
+PostBuildCmd=
+PreBuildCmd=
+RTLAB_Version=v2021.3.4.320undefined
+[SEPARATION]
+ACDCMG_sim8.slx=873082eae68e419f26c34669de481efd@07/12/22 10:30:22
+Graphics.m=d024ddb12780dc41e728fa4ee91330a5@07/06/22 16:10:43
+Opcommon\ACDCMG_sim8.subsys=exists
+Opcommon\acdcmg_sim8_1_sm_grid_simulation.slx=exists
+Set_parameters_R2018.m=5bc077bf44f37d7343d2bbc38d39da64@07/06/22 16:21:50
+acdcmg_sim8_2_sc_gui.slx=exists
+[GENERATION.REDHAWK64]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tlc=649c42bccd471daa642662d96f043530@11/26/21 13:02:40
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf=4cfd2f851ee1021c3c1d859c979b59fa@11/26/21 13:02:40
+Opcommon\ACDCMG_sim8.param=51d6630e1a3ea6602bc2aec3fd8055ab@07/12/22 10:35:54
+Opcommon\ACDCMG_sim8.signal=db19ce08c943f82d8753b3dcf7e853b5@07/12/22 10:35:54
+Opcommon\ACDCMG_sim8.subsys=513fac4d991144c80389e2cf87b3a8d1@07/12/22 10:34:38
+Opcommon\acdcmg_sim8_1_sm_grid_simulation.slx=85ab5a8265e6b3f9a239dd704c40664d@07/12/22 10:34:17
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\OpalSnapshotUtil.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.mk=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_data.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_offsets.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_private.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_types.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\builtin_typeid_types.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\multiword_types.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetInf.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetInf.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetNaN.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetNaN.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_defines.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look1d.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look1d.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_nonfinite.c=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_nonfinite.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtmodel.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtwtypes.h=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\settings.json=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\zero_crossing_types.h=exists
+[COMPILATION.REDHAWK64]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\model_main.c=2ead0f4278a98bfe58f646e3b20df16b@11/26/21 13:02:40
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\OpalSnapshotUtil.c=b1a0ab488b99e567538a596f423eccc8@07/12/22 10:35:54
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation=exists
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.c=c578065eee29c38841dbb1c63baa5521@07/12/22 10:36:00
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.h=fa9de693afbf50a0a7190f184597a1ad@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.mk=b004913ccaa880f9cd71d930fe6cdfba@07/12/22 10:35:51
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_data.c=144882173bb46762243fd335ae61429f@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_offsets.c=1b85cdd65b5af33f7526b3cd3cbfb8bb@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_private.h=235d01a28b8e0a1cb0bfae43a34799be@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation_types.h=1873f1cc4f358ccb96efdad9ccfd4a44@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\builtin_typeid_types.h=def612b1e23a4c143784887e7e034131@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\multiword_types.h=7ef2f289dd8603de64e1c1fda57c2dec@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetInf.c=256d0abf4bff515f93a456831aa87ad4@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetInf.h=a120f861c22a4733a51cf18c86dffef4@07/12/22 10:35:40
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetNaN.c=c21dda3a66f71fea3e0a70ec8ceaa4c3@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGetNaN.h=22aa634cdde3d8dc9c5d53a55dccc174@07/12/22 10:35:41
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_defines.h=e73b9c3de9205a6e9566888cd1c0a21b@07/12/22 10:35:41
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look.c=eaaf409a658de7e7886624a2092ee10a@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look.h=cbf0c12a7eb33a6853133a17ffa31010@07/12/22 10:35:41
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look1d.c=9da148d91685c518cc49c17d7361401f@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_look1d.h=de00c1bc5972a282aa999ec1ba336836@07/12/22 10:35:41
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_nonfinite.c=5c6631f9c6ddc8c5b3997b4999bd4aac@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_nonfinite.h=fe8ab8747a436ce0c3bbc639596df157@07/12/22 10:35:41
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtmodel.h=325c1483e727b5023bb82c8d7b3c5eac@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtwtypes.h=8c9a4ecad193f82032e4e085135c4daf@07/12/22 10:35:48
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\settings.json=7d49779ec727bab204561e80a1ad9ad2@07/12/22 10:36:00
+acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\zero_crossing_types.h=ae5ea87e47fe96dc5e971cdf03c73e80@07/12/22 10:35:48
+[COMPILATION.REDHAWK64.VOLATILE]
+..\..\..\..\..\..\..\OPAL-RT\ARTEMIS\v7.7.1.75\art_r2019b\lib\redhawk64\artemis_rt77175r2019br64.a=940d5e2cf6be11ee8928d4d25e4e8439@09/15/21 12:57:34
+[COMPILATION.REDHAWK64.SETTINGS]
+CompilerVersion=Automatic
+DEBUG=0
+DevNodeIP=192.168.5.89
+DevNodeOSVersion=OPAL-RTLinux 3.4.1 (4.19.55-opalrtlinux)
+EXT_CC_OPTS=
+EXT_LD_OPTS=
+EXT_LIB=
+EXT_LIBPATH=
+RTLAB_Version=v2021.3.4.320undefined
+TargetCompileCmd=
+USER_INCS=C:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m
+USER_SRCS=

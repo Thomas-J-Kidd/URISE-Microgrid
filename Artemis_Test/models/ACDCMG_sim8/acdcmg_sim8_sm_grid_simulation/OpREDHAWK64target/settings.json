@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"C:\\Users\\dkh20\\OPAL-RT\\RT-LABv2021.3_Workspace\\Artemis_Test\\models\\ACDCMG_sim8",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]

@@ -1,0 +1,132 @@
+          model acdcmg_sim8_1_sm_grid_simulation assigned to logical cpu 1
+          Model 'acdcmg_sim8_1_sm_grid_simulation' compiled in RELEASE mode.
+          16 CPUs active on this Computer
+          OS version: OPAL-RTLinux 3.4.1 (4.19.55-opalrtlinux)
+          libOpalR2019B.a : v2021.3.4.320 (build = undefined)
+          Monitoring is enabled
+          RECV: connection to host established
+          SEND: connection to host established
+            >>>> SessionRoot::initialize port 0
+           Root initialized: 192.168.5.89:25250/resources/root
+          Display of standard output will be disabled
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel8_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:12 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 38 states
+ssn_sfun_v1.c        : The S-function requires 38 states. 1000000 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel11_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:13 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 10 states
+ssn_sfun_v1.c        : The S-function requires 10 states. 999962 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel10_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:13 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 3 states
+ssn_sfun_v1.c        : The S-function requires 3 states. 999952 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel7_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:11 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 3 states
+ssn_sfun_v1.c        : The S-function requires 3 states. 999949 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel9_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:13 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 9 states
+ssn_sfun_v1.c        : The S-function requires 9 states. 999946 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel1_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:10 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 0 states
+ssn_sfun_v1.c        : The S-function requires 0 states. 999937 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel2_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:10 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 0 states
+ssn_sfun_v1.c        : The S-function requires 0 states. 999937 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel3_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:10 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 0 states
+ssn_sfun_v1.c        : The S-function requires 0 states. 999937 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel4_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:11 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 0 states
+ssn_sfun_v1.c        : The S-function requires 0 states. 999937 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel5_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:11 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 0 states
+ssn_sfun_v1.c        : The S-function requires 0 states. 999937 states are allowed on your license
+          SSN: Structure acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel6_State-Space.ssn loaded
+
+          SSN: Version : 1.9
+          SSN: File Name : acdcmg_sim8_1_sm_grid_simulation
+          SSN: Structure SPS saved : Tue Jul 12 10:35:11 2022
+
+
+ssn_sfun_v1.c        : the SSN group #0 has 0 states
+ssn_sfun_v1.c        : The S-function requires 0 states. 999937 states are allowed on your license
+          SubSystem step size = 0.000040 sec. Status updated at every 1 local step.
+          XHP mode enabled on this CPU.
+          Synchronized with polling  software timer.
+          Real-time SingleTasking mode.
+          RT-LAB license ok. 60 days remaining.
+          Snapshot taken (opacdcmg_sim8_sm_grid_simulation_0.snap).
+           [0]: PAUSE mode, IO set to pause value.
+          		Total of 0 Overrun detected.
+          		Mon Jul 18 15:53:25 2022
+
+          XHP mode enabled
+           [1]: RUN mode, IO set to run value.
+          		Synchronized step size = 40 us.
+          		Mon Jul 18 16:01:31 2022
+
+          Main priority set to 99
+          XHP mode disabled
+           [22728915]: Reset
+          		Total of 0 Overrun detected.
+          		Mon Jul 18 16:16:40 2022
+
+          Reset done

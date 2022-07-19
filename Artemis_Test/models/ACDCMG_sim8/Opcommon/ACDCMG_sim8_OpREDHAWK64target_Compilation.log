@@ -1,0 +1,877 @@
+
+-------------------- Starting compilation --------------------
+Start at : Tuesday, July 12, 2022, 10:30:22
+
+The current RT-LAB version is:  v2021.3.4.320
+The current model is:           C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\ACDCMG_sim8.slx
+The current host platform is:   Windows
+The current target platform is: OPAL-RT Linux (x64-based)
+The current compiler is:        Automatic
+The target OS version is:       OPAL-RTLinux 3.4.1 (4.19.55-opalrtlinux)
+Separating model because C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\ACDCMG_sim8.slx has changed.
+Preparing original model for code separation and generation...
+The current Matlab version is:  v9.7 (64 Bit) (R2019B)
+
+
+Warning: "LocalBlockOutputs" parameter is reset to "off"
+Warning: "BlockReduction" is set to "on". Some blocks could have been removed.
+RtlabInfo not loaded
+Separating RT-LAB model (number of RT subsystems = 1, console detected).
+Separating RT-LAB subsystem 'SM_Grid_Simulation'.
+Separating RT-LAB subsystem 'SC_GUI'.
+
+Model preparation and separation duration : 00h:04m:00s
+-------------------- Completed successfully --------------------
+
+Generating model because C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\Opcommon\acdcmg_sim8_1_sm_grid_simulation.slx has changed.
+
+-------------------- Generating C code --------------------
+
+Using System Target File (TLC file) : rtlab_rtmodel.tlc...
+
+Using Template Makefile (TMF file) : rtlab_rtmodel.tmf...
+
+-------------------- Generating acdcmg_sim8_1_sm_grid_simulation C code --------------------
+Warning: Cannot find library called 'eeSinusoidalMeasurementV2'. To use the library, install '<a href="matlab:com.mathworks.addons.AddonsLauncher.showDetailPageInExplorerFor('PS','AO_MODEL_RP')">Simscape Electrical</a>'.
+> In TransformerBlocksInit
+  In powericon
+  In TransformerBlocksInit
+  In powericon
+  In TransformerBlocksInit
+  In powericon
+  In TransformerBlocksInit
+  In powericon
+  In TransformerBlocksInit
+  In powericon
+  In op_stubline_cb
+  In op_stubline_cb
+  In art_store_sps_blocks
+  In Simulink.ModelReference.internal/ModelRefHierarchy/searchEntry
+  In Simulink.ModelReference.internal/ModelRefHierarchy/search
+  In find_mdlrefs (line 78)
+  In opMakeRTW
+Calling RTW Make Command make_rtw...
+### Starting build procedure for model: acdcmg_sim8_1_sm_grid_simulation
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_1_sm_grid_simulation_rtlab
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 1.6e-05 Mb (including nodal matrix)
+SSN group info
+Group 1 : 0 states, 1 inputs, 1 outputs, 0 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1
+ARTEMIS network information: the network contains 2 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel1_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 1.6e-05 Mb (including nodal matrix)
+SSN group info
+Group 1 : 0 states, 1 inputs, 1 outputs, 0 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1
+ARTEMIS network information: the network contains 2 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel2_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 1.6e-05 Mb (including nodal matrix)
+SSN group info
+Group 1 : 0 states, 1 inputs, 1 outputs, 0 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1
+ARTEMIS network information: the network contains 2 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel3_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 1.6e-05 Mb (including nodal matrix)
+SSN group info
+Group 1 : 0 states, 1 inputs, 1 outputs, 0 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1
+ARTEMIS network information: the network contains 2 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel4_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 1.6e-05 Mb (including nodal matrix)
+SSN group info
+Group 1 : 0 states, 1 inputs, 1 outputs, 0 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1
+ARTEMIS network information: the network contains 2 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel5_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 1.6e-05 Mb (including nodal matrix)
+SSN group info
+Group 1 : 0 states, 1 inputs, 1 outputs, 0 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1
+ARTEMIS network information: the network contains 2 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel6_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 0.011528 Mb (including nodal matrix)
+SSN group info
+Group 1 : 3 states, 6 inputs, 15 outputs, 3 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 180
+ARTEMIS network information: the network contains 9 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel7_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.081118e-16.] 
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.081118e-16.] 
+ARTEMIS-SSN: approx. memory required: 40.321 Mb (including nodal matrix)
+SSN group info
+Group 1 : 38 states, 30 inputs, 90 outputs, 9 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 9844
+ARTEMIS network information: the network contains 73 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel8_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 0.039752 Mb (including nodal matrix)
+SSN group info
+Group 1 : 9 states, 9 inputs, 21 outputs, 3 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 621
+ARTEMIS network information: the network contains 18 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel9_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 0.011528 Mb (including nodal matrix)
+SSN group info
+Group 1 : 3 states, 6 inputs, 15 outputs, 3 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 180
+ARTEMIS network information: the network contains 9 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel10_State-Space.ssn=binary
+Third-Party Rule block detected: acdcmg_sim8_1_sm_grid_simulation/ARTEMIS Guide
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 5.2101 Mb (including nodal matrix)
+SSN group info
+Group 1 : 10 states, 18 inputs, 29 outputs, 9 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1272
+ARTEMIS network information: the network contains 16 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+acdcmg_sim8_1_sm_grid_simulation_powergui_EquivalentModel11_State-Space.ssn=binary
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From60','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From60</a>' not found] 
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From75','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From75</a>' not found] 
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From76','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From76</a>' not found] 
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From77','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From77</a>' not found] 
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From85','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/From85</a>' not found] 
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/From10','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Control of  Inverter/From10</a>' not found] 
+[Warning: Matching "Goto" for "From" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/From11','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Control of  Inverter/From11</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional  converter 1/Goto7','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional
+converter 1/Goto7</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V /MPPT Controller using  Incremental Conductance and  Integral Regulator  technique /MPPT/Goto1','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V
+/MPPT Controller using  Incremental Conductance and  Integral Regulator  technique /MPPT/Goto1</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V /MPPT Controller using  Incremental Conductance and  Integral Regulator  technique /MPPT/Goto5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V
+/MPPT Controller using  Incremental Conductance and  Integral Regulator  technique /MPPT/Goto5</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto1','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto1</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto2</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto3','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Goto3</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/Current3','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/Current3</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/Goto2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/Goto2</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Goto8','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Goto8</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto4</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto5</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto6','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto6</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto7','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Goto7</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Goto','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Goto</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Goto2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Goto2</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Goto3','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Goto3</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Three-Phase V-I Measurement1/Iabc','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Three-Phase V-I Measurement1/Iabc</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Three-Phase V-I Measurement1/Vabc','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V
+(AC) P_nom 10 kW4/Three-Phase V-I Measurement1/Vabc</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto4</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto5</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto7','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/Goto7</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Primary (69 kV)/Iabc','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Primary (69 kV)/Iabc</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Secundario 13.8 kV LL/Iabc','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Secundario 13.8 kV LL/Iabc</a>' not
+found] 
+[Warning: Output port 1 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Current Measurement','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Current Measurement</a>' is not connected.] 
+[Warning: Input port 1 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V /MPPT Controller using  Incremental Conductance and  Integral Regulator  technique /Add','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V /MPPT
+Controller using  Incremental Conductance and  Integral Regulator  technique /Add</a>' is not connected.] 
+[Warning: Input port 1 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc ','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc </a>' is not connected.] 
+[Warning: Input port 2 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc ','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc </a>' is not connected.] 
+[Warning: Input port 3 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc ','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc </a>' is not connected.] 
+[Warning: Input port 4 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc ','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/Delta Pabc </a>' is not connected.] 
+[Warning: Input port 1 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/Mux','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/Mux</a>' is not
+connected.] 
+[Warning: Output port 1 of '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/Udc2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom
+10 kW4/Control of  Inverter/Subsystem2/Udc2</a>' is not connected.] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional  converter 1/Primary Control/Switch','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck
+Bi-directional  converter 1/Primary Control/Switch</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor
+Block1/Power</a>' (output port: 2)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/Power','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor
+Block1/Power</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor Block1/cos(theta)','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor
+Block1/cos(theta)</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/PV system/From2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/PV
+system/From2</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/PV system/From3','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/PV
+system/From3</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/PV system/From4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/PV
+system/From4</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TDC2 220 V // 150 V 15 kVA/Model/In4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TDC2 220 V // 150 V 15
+kVA/Model/In4</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TDC2 220 V // 150 V 15 kVA/Model/In5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TDC2 220 V // 150 V 15
+kVA/Model/In5</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TDC2 220 V // 150 V 15 kVA/Model/In6','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TDC2 220 V // 150 V 15
+kVA/Model/In6</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TG 13.8 kV // 2400 V 3.5 MVA/Model/In4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TG 13.8 kV // 2400 V 3.5
+MVA/Model/In4</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TG 13.8 kV // 2400 V 3.5 MVA/Model/In5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TG 13.8 kV // 2400 V 3.5
+MVA/Model/In5</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TG 13.8 kV // 2400 V 3.5 MVA/Model/In6','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/TG 13.8 kV // 2400 V 3.5
+MVA/Model/In6</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T1) 13.8 kV // 220 V 1.5 MVA/Model/In4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T1) 13.8 kV
+// 220 V 1.5 MVA/Model/In4</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T1) 13.8 kV // 220 V 1.5 MVA/Model/In5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T1) 13.8 kV
+// 220 V 1.5 MVA/Model/In5</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T1) 13.8 kV // 220 V 1.5 MVA/Model/In6','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T1) 13.8 kV
+// 220 V 1.5 MVA/Model/In6</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T2) 13.8 kV // 220 V 1.5 MVA/Model/In4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T2) 13.8 kV
+// 220 V 1.5 MVA/Model/In4</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T2) 13.8 kV // 220 V 1.5 MVA/Model/In5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T2) 13.8 kV
+// 220 V 1.5 MVA/Model/In5</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T2) 13.8 kV // 220 V 1.5 MVA/Model/In6','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T2) 13.8 kV
+// 220 V 1.5 MVA/Model/In6</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T3) 69kV // 13.8 kV 4 MVA/Model/In4','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T3) 69kV //
+13.8 kV 4 MVA/Model/In4</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T3) 69kV // 13.8 kV 4 MVA/Model/In5','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T3) 69kV //
+13.8 kV 4 MVA/Model/In5</a>' (output port: 1)] 
+[Warning: Unconnected output line found on '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T3) 69kV // 13.8 kV 4 MVA/Model/In6','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Transformer (T3) 69kV //
+13.8 kV 4 MVA/Model/In6</a>' (output port: 1)] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional  converter 1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional
+converter 1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional  converter 1/Mean1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost -buck Bi-directional
+converter 1/Mean1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V /Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Boost converter 2 5 kHz - 300V
+/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 1/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 2/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 3/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 4/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 5/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 6/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS1/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS1/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS1/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS1/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS1/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS2/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS2/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS2/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS2/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS2/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS3/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS3/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS3/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS3/RMS /Fourier1/Mean
+value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS3/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_14 7/RMS3/TrueRMS /Mean
+value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer
+of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_7/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor Block1/RMS/RMS /Fourier1/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor Block1/RMS/RMS
+/Fourier1/Mean/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use
+fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor Block1/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor Block1/RMS/RMS
+/Fourier1/Mean value1/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically
+use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor Block1/RMS/TrueRMS /Mean value/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power Factor
+Block1/RMS/TrueRMS /Mean value/Model/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results
+may differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/Mean/Model/Transport Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_AC//DC3/Mean/Model/Transport
+Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed buffer of the initial buffer
+size set by user. Code generation results and simulation results may differ] 
+[Warning: The To Workspace block '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/DATA  ADQUISITION/Power_Losses_abc/f2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/DATA
+ADQUISITION/Power_Losses_abc/f2</a>' has the 'SaveFormat' parameter set to 'Timeseries'. This format is supported only for
+normal and accelerator mode simulations. No data will be logged for this block. To log this signal in rapid accelerator
+mode, consider using signal logging. To log this signal in other simulation modes and code generation targets, consider
+changing the 'SaveFormat' parameter to 'Structure With Time'.] 
+[Warning: The To Workspace block '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/DATA  ADQUISITION/VoltageLL_pu_abc/f2','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/DATA
+ADQUISITION/VoltageLL_pu_abc/f2</a>' has the 'SaveFormat' parameter set to 'Timeseries'. This format is supported only for
+normal and accelerator mode simulations. No data will be logged for this block. To log this signal in rapid accelerator
+mode, consider using signal logging. To log this signal in other simulation modes and code generation targets, consider
+changing the 'SaveFormat' parameter to 'Structure With Time'.] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Variable Time Delay','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC)
+P_nom 10 kW4/Variable Time Delay</a>' is not selected. When generating GRT/ERT code, Simulink will automatically use fixed
+buffer of the initial buffer size set by user. Code generation results and simulation results may differ] 
+[Warning: The To Workspace block '<a href="matlab:open_and_hilite_hyperlink ('acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/f1','error')">acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/f1</a>' has the 'SaveFormat' parameter
+set to 'Timeseries'. This format is supported only for normal and accelerator mode simulations. No data will be logged
+for this block. To log this signal in rapid accelerator mode, consider using signal logging. To log this signal in other
+simulation modes and code generation targets, consider changing the 'SaveFormat' parameter to 'Structure With Time'.] 
+
+### Invoking Target Language Compiler on acdcmg_sim8_1_sm_grid_simulation.rtw
+### Using System Target File: C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+.....................
+### TLC Scope icon is not supported by RT-LAB.
+..................................................................
+### Caching model source code
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+..............................................................
+### Writing header file acdcmg_sim8_1_sm_grid_simulation_types.h
+### Writing header file acdcmg_sim8_1_sm_grid_simulation.h
+### Writing header file acdcmg_sim8_1_sm_grid_simulation_private.h
+### Writing header file rtwtypes.h
+.
+### Writing header file builtin_typeid_types.h
+### Writing header file multiword_types.h
+### Writing header file zero_crossing_types.h
+### Writing header file rtGetInf.h
+### Writing source file rtGetInf.c
+### Writing header file rtGetNaN.h
+### Writing source file rtGetNaN.c
+.
+### Writing header file rt_defines.h
+### Writing header file rt_look1d.h
+### Writing source file rt_look1d.c
+### Writing header file rt_look.h
+### Writing source file rt_look.c
+### Writing header file rt_nonfinite.h
+### Writing source file rt_nonfinite.c
+.
+### Writing source file acdcmg_sim8_1_sm_grid_simulation.c
+### Writing header file rtmodel.h
+### Writing source file acdcmg_sim8_1_sm_grid_simulation_data.c
+### TLC code generation complete.
+........................................
+Version 9.2 (R2019b) 18-Jul-2019
+### Creating model mapping file acdcmg_sim8_1_sm_grid_simulation.map using opal_map_file.tlc
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Constant" contains unsupported character '[!?$
+.............
+Warning:  Pseudo-workspace parameter "Rl" of block "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Diesel_ 50MVA/Programmable Voltage Source1/Model/Signal generator" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Rl" of block "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Main Grid 69 kV Inf/Programmable Voltage Source1/Model/Signal generator" will not be supported for run-time tuning
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Compare To Constant/Constant" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Compare To Constant1/Constant" contains unsupported character '[!?$
+.....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/abc to Alpha-Beta-Zero/Gain3" contains unsupported character '[!?$
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/abc to Alpha-Beta-Zero/Gain1" contains unsupported character '[!?$
+.........................................................................
+........................................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...............Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+........................
+..Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+..Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...............................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+.................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/PV Array/Diode Rsh/Rsh_array_5%Sref" contains unsupported character '[!?$
+................
+.........................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem1/dq" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem - pi//2 delay/dq" contains unsupported character '[!?$
+......................................................
+...............................................................................
+...................................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+......Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+.......Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+..........Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/abc to Alpha-Beta-Zero/Gain1" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Switch" contains unsupported character '[!?$
+....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/abc to Alpha-Beta-Zero/Gain3" contains unsupported character '[!?$
+......Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Compare To Constant/Compare" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Compare To Constant1/Compare" contains unsupported character '[!?$
+......
+....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem1/Fcn" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem1/Fcn1" contains unsupported character '[!?$
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem - pi//2 delay/Fcn" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem - pi//2 delay/Fcn1" contains unsupported character '[!?$
+..........................................................................
+....................................................................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Constant" contains unsupported character '[!?$
+...........
+....
+Warning:  Pseudo-workspace parameter "Rl" of block "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Diesel_ 50MVA/Programmable Voltage Source1/Model/Signal generator" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Rl" of block "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Main Grid 69 kV Inf/Programmable Voltage Source1/Model/Signal generator" will not be supported for run-time tuning
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Compare To Constant/Constant" contains unsupported character '[!?$
+Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Compare To Constant1/Constant" contains unsupported character '[!?$
+......Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/abc to Alpha-Beta-Zero/Gain3" contains unsupported character '[!?$
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/abc to Alpha-Beta-Zero/Gain1" contains unsupported character '[!?$
+........................................................................
+...................................................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_3/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...............Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_5/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+.............
+.................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_8/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+..Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_2/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_6/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_1/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Bus_4/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+...................................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Power (3ph, Instantaneous)/pu->V" contains unsupported character '[!?$
+..............
+.....Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/PV Subsystem/PV Array/Diode Rsh/Rsh_array_5%Sref" contains unsupported character '[!?$
+............................................Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem1/dq" contains unsupported character '[!?$
+.Block path or variable "acdcmg_sim8_1_sm_grid_simulation/SM_Grid_Simulation/Inverter   300 (DC) // 150 V (AC) P_nom 10 kW4/Control of  Inverter/Subsystem2/PLL (3ph)/Model/Automatic Gain Control/Positive-Sequence (PLL-Driven)/abc ->dq0/Alpha-Beta-Zero to dq0/Subsystem - pi//2 delay/dq" contains unsupported character '[!?$
+.............................
+...............................................................................
+...............................................................................
+..........................................................
+### Processing Template Makefile: C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf
+[Warning: Found legacy make variables |>SHARED_SRC<|, |>SHARED_SRC_DIR<| in the template makefile
+C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf. The variables are no longer required. You can remove
+the variables.] 
+### Creating C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_1_sm_grid_simulation_rtlab\acdcmg_sim8_1_sm_grid_simulation.mk from C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf
+### Successful completion of code generation for model: acdcmg_sim8_1_sm_grid_simulation
+### Simulink cache artifacts for 'acdcmg_sim8_1_sm_grid_simulation' were created in 'C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_1_sm_grid_simulation.slxc'.
+
+
+acdcmg_sim8_1_sm_grid_simulation : Generating C code duration : 00h:01m:00s
+Generating C code total duration : 00h:01m:00s
+
+-------------------- Completed successfully --------------------
+
+-------------------- Creating the parameter database --------------------
+Parameter(s) with more than 1000 values will be disabled. 
+Use PARAM_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+Parameter database creation duration: 00h:00m:00s
+-------------------- Parameter database created successfully --------------------
+
+-------------------- Creating the signals database --------------------
+Signal(s) with more than 1000 values will be disabled.
+Use SIGNALS_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+
+Signal database creation duration: 00h:00m:01s
+-------------------- Signal database created successfully --------------------
+Generating simulation data...
+Data generated in 00h:00m:00s
+
+Closing Matlab... OK.
+Creating DataLoggers...
+ - SM_Grid_Simulation... OK
+Updating dependencies... OK.
+Compiling model because C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\OpalSnapshotUtil.c has changed.
+
+-------------------- Validating sources files --------------------------
+
+-------------------- Done validating source files ----------------------
+
+
+
+-------------------- Transferring the generated C code --------------------
+
+Connecting to 192.168.5.89 ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\2021.3.4\Simulink/rtw/c/common/linux64.opt ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\2021.3.4\Simulink/rtw/c/common/posix.rules ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\settings.json (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation*.c (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGet*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtGet*.c (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\acdcmg_sim8_1_sm_grid_simulation.mk (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_*.c (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rt_*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\zero_crossing_types*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\builtin_typeid_types*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\multiword_types*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtwtypes.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\rtmodel.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\drive_acdcmg_sim8_1_sm_grid_simulation*.c (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\drive_acdcmg_sim8_1_sm_grid_simulation*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\Opal*.c (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\OpREDHAWK64target\ssc_ml_fun*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\slprj\rtlab_rtmodel\_sharedutils\*.c (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\slprj\rtlab_rtmodel\_sharedutils\*.h (SM_Grid_Simulation) ... OK.
+Transferring in ascii: C:\Users\dkh20\OPAL-RT\RT-LABv2021.3_Workspace\Artemis_Test\models\ACDCMG_sim8\acdcmg_sim8_sm_grid_simulation\slprj\rtlab_rtmodel\_sharedutils\*.mk (SM_Grid_Simulation) ... OK.
+
+Transferring common RT-LAB files:
+Transferring in ascii: C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\model_main.c (SM_Grid_Simulation) ... OK.
+
+Transferring user extra files:
+Transferring in binary: C:\OPAL-RT\ARTEMIS\v7.7.1.75\art_r2019b\lib\redhawk64\artemis_RT77175r2019br64.a (SM_Grid_Simulation) ... OK.
+
+File transfer duration : 00h:00m:01s
+-------------------- Completed successfully --------------------
+
+-------------------- Building the generated C code --------------------
+
+Executing script /usr/opalrt/v2021.3.4.320/common/python/rtlab/global/target_precompile.py ... done
+Removing relative includes from ./../acdcmg_sim8_sm_grid_simulation/model_main.c ...
+Done
+Executing script /usr/opalrt/v2021.3.4.320/common/python/rtlab/global/target_subsys_precompile.py ... done
+
+-------------------- Building acdcmg_sim8_1_sm_grid_simulation --------------------
+
+rm -f acdcmg_sim8_1_sm_grid_simulation
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  acdcmg_sim8_1_sm_grid_simulation.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  acdcmg_sim8_1_sm_grid_simulation_data.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  acdcmg_sim8_1_sm_grid_simulation_offsets.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  model_main.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  rtGetInf.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  rtGetNaN.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.7/rtw/c/src/rt_logging.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  rt_look.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  rt_look1d.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  rt_nonfinite.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.7/rtw/c/src/rt_printf.c
+gcc -c  -O2 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=acdcmg_sim8_1_sm_grid_simulation -DRT=RT -DNUMST=3 -DTID01EQ=1 -DNCSTATES=140 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2019B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.7/simulink/include -I/usr/matlab/v9.7/extern/include -I/usr/matlab/v9.7/rtw/c/src -I/usr/matlab/v9.7/rtw/c/src/matrixmath  -I/usr/matlab/v9.7/toolbox/simscape/include/drive -I/usr/matlab/v9.7/toolbox/simscape/include/mech -I/usr/matlab/v9.7/toolbox/simscape/include/foundation -I/usr/matlab/v9.7/toolbox/simscape/include/math -I/usr/matlab/v9.7/toolbox/simscape/include/lang -I/usr/matlab/v9.7/toolbox/simscape/include/external -I/usr/matlab/v9.7/toolbox/simscape/include/network_engine -I/usr/matlab/v9.7/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.7/toolbox/dspblks/include -I/usr/matlab/v9.7/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.7/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.7/toolbox/simscape/include/utils -I/usr/matlab/v9.7/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -IC:\Users\dkh20\dev\URISE-2022-Microgrid-Testbed\URISE-Microgrid\RT_MG_7_7_22\Set_parameters_R2018.m -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.7/rtw/c/src/rt_sim.c
+### Linking ...
+g++  -Wl,-rpath='/usr/opalrt/v2021.3.4.320/common/bin' -Wl,'-rpath=/usr/opalrt/v2021.3.4.320/common/bin/x64' -L. -L/usr/opalrt/v2021.3.4.320/RT-LAB/lib -L/usr/opalrt/v2021.3.4.320/common/lib -L/usr/opalrt/v2021.3.4.320/common/lib/redhawk64 -L/usr/opalrt/v2021.3.4.320/common/bin -L/usr/opalrt/v2021.3.4.320/common/bin/x64 -L/usr/opalrt/externals/lib    -o acdcmg_sim8_1_sm_grid_simulation acdcmg_sim8_1_sm_grid_simulation.o acdcmg_sim8_1_sm_grid_simulation_data.o acdcmg_sim8_1_sm_grid_simulation_offsets.o model_main.o rtGetInf.o rtGetNaN.o rt_logging.o rt_look.o rt_look1d.o rt_nonfinite.o rt_printf.o rt_sim.o     artemis_RT77175r2019br64.a -lOpalRTER2019B -lOpalSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib -lOpIRTS_RT-2019b -lOpalSfunR2019B -lOpalR2019B -lBlocksRT-2019b -ldspR2019B -lsimscapeR2019B -lSimulinkRT-2019b -lOpalRTER2019B -lOpalCore -lLicenseLib -lSimulink -lSimulationUtilities -lInfrastructure  -lNetwork -lKLU -lNumeric -lFramework -lSystem -lMatio -luuid -lpthread -lOpalSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib  -lOpalHttpLicenseRequest -lRapidJSON_Wrapper -lOpalUtils -lpthread -lm -ldl -lutil -lrt -limf -lirc      /usr/matlab/v9.7/rtw/c/libsrc/rtwlibr_redhawk64.a 
+chmod a+x acdcmg_sim8_1_sm_grid_simulation
+### Created executable: acdcmg_sim8_1_sm_grid_simulation
+
+acdcmg_sim8_1_sm_grid_simulation : Building subsystem duration : 00h:00m:11s
+
+Building model total duration : 00h:00m:11s
+-------------------- Completed successfully --------------------
+
+-------------------- Transferring the built model --------------------
+Connecting to 192.168.5.89 ... OK.
+Transferring in binary mode /home/dkhs_spectre/c/users/dkh20/opal-rt/rt-labv2021.3_workspace/artemis_test/models/acdcmg_sim8/acdcmg_sim8_sm_grid_simulation/acdcmg_sim8_1_sm_grid_simulation ... OK.
+Transferring in ascii mode /home/dkhs_spectre/c/users/dkh20/opal-rt/rt-labv2021.3_workspace/artemis_test/models/acdcmg_sim8/compilation_target_report.xml ... OK.
+
+File transfer duration : 00h:00m:02s
+-------------------- Completed successfully --------------------
+
+End at : Tuesday, July 12, 2022, 10:36:14
+
+Compilation duration : 00h:05m:52s
+
+Updating status for next build...OK
